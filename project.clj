@@ -1,4 +1,4 @@
-(defproject immutant-spec "0.1.0"
+(defproject immutant-spec "0.1.0-SNAPSHOT"
   :description "Reference immutant resources as data"
   :url "http://github.com/danstone/immutant-spec"
   :license {:name "Eclipse Public License"

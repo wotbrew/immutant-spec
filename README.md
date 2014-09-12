@@ -7,7 +7,7 @@ Caches and queue specifications as data for [immutant 1.1.x](http://immutant.org
 #Lein
 
 ```clojure
-["immutant-spec" "0.1.0"]
+["immutant-spec" "0.1.0-SNAPSHOT"]
 ```
 
 #Cache specs
