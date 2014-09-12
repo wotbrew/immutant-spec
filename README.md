@@ -55,7 +55,7 @@ then immutant-spec will try to lookup the queue or topic, if that fails - it wil
 (stop! my-queue {:force true) ;; => stops the queue, notice options can still be passed
 (with-queue [q my-queue]
   (publish! my-queue :bar)
-  (publish! my-queue :baz));; => re-uses the underlying cache across calls, and re-uses the underlying connection to HornetQ
+  (publish! my-queue :baz));; => re-uses the underlying connection to HornetQ
 ```
 
 
